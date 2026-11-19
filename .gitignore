@@ -1,0 +1,29 @@
+# Node / Angular
+**/node_modules/
+**/dist/
+**/.angular/cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Spring Boot / Java (para la parte de backend)
+**/target/
+**/.mvn/
+**/bin/
+**/*.class
+**/*.jar
+**/*.war
+
+# IDEs & OS
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Plantillas base externas de HexaDash (para no saturar el repositorio con +250MB de temas de terceros)
+hexadash-*/
